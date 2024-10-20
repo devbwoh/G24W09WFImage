@@ -10,10 +10,14 @@
 
   <ItemGroup>
     <None Remove="Images\건너자쿠워리어sd.jpg" />
+    <None Remove="Images\블레이즈자쿠팬텀sd.jpg" />
+    <None Remove="Images\주다.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Images\건너자쿠워리어sd.jpg" />
+    <EmbeddedResource Include="Images\블레이즈자쿠팬텀sd.jpg" />
+    <EmbeddedResource Include="Images\주다.jpg" />
   </ItemGroup>
 
   <ItemGroup>

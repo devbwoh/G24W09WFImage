@@ -24,6 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             pictureBox1 = new PictureBox();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -37,11 +38,22 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            button1.Location = new Point(12, 393);
+            button1.Name = "button1";
+            button1.Size = new Size(364, 52);
+            button1.TabIndex = 1;
+            button1.Text = "이미지 전환";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += OnChange;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(388, 388);
+            ClientSize = new Size(388, 457);
+            Controls.Add(button1);
             Controls.Add(pictureBox1);
             Name = "Form1";
             Text = "건담";
@@ -52,5 +64,6 @@
         #endregion
 
         private PictureBox pictureBox1;
+        private Button button1;
     }
 }
